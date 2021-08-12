@@ -5,13 +5,13 @@ import io
 
 setup(
     name="pyspark-iforest",
-    version="2.4.0",
+    version="3.1.1",
     author="Titicaca",
     author_email="lake_titicaca@outlook.com",
     description="PySpark Wrapper for Spark-IForest",
     long_description=io.open("README.md", encoding="UTF-8").read(),
     license="MIT",
-    url="https://github.com/titicaca/spark-iforest/python",
+    url="https://github.com/aashrith/spark-iforest/python",
     packages=find_packages(),
     entry_points={
     },
@@ -34,7 +34,7 @@ setup(
         'Programming Language :: Python :: 3.6',
     ],
     install_requires=[
-            'pyspark==2.4.0'
+            'pyspark==3.1.1'
         ],
     zip_safe=True,
 )
