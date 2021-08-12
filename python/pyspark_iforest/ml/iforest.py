@@ -90,7 +90,7 @@ class CustomizedJavaMLReader(JavaMLReader):
 
     def load(self, path):
         """Load the ML instance from the input path."""
-        if not isinstance(path, basestring):
+        if not isinstance(path, str):
             raise TypeError("path should be a basestring, got type %s" % type(path))
         java_obj = self._jread.load(path)
         if not hasattr(self._clazz, "_from_java"):
